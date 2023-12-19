@@ -136,7 +136,7 @@ $(document).ready(function () {
 									</div>
 									<figure class="product-image-container">
 										<a href="/beauty/product-detail?id=`+ response.data[i].id + `" class="product-image"> 
-											<img src="/uploads/`+ response.data[i].image + `" alt="product">
+											<img src="/shop/assets/uploads/`+ response.data[i].image + `" alt="product">
 										</a>
 									</figure>
 									<a onclick="removeCartItem(` + response.data[i].id + `, '` + response.data[i].name + `')"

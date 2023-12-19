@@ -79,7 +79,7 @@ function viewOrder(id) {
 				tr.innerHTML = `
 					<td>
 						<div class="card" style="max-width: 150px;">
-							<img src="/uploads/`+ item.banner + `"
+							<img src="/admin/assets/uploads/`+ item.banner + `"
 								class="card-img-top" style="max-width: 150px;" alt="...">
 						</div>
 					</td>

@@ -50,7 +50,7 @@
 								<div class="product">
 									<figure class="product-media">
 										<a th:href="@{/beauty/product-detail(id=${item.product.id})}">
-											<img th:src="${item.product.banner} == null ? '/shop/assets/images/no-image.jpg' : '/uploads/' + ${item.product.banner}"
+											<img th:src="${item.product.banner} == null ? '/shop/assets/images/no-image.jpg' : '/shop/assets/uploads/' + ${item.product.banner}"
 												alt="Product image">
 										</a>
 									</figure>

@@ -92,7 +92,7 @@
 											</span>
 
 											<a th:href="@{/beauty/product-detail(id=${item.id})}"> <img
-													th:src="${item.banner} == null ? '/shop/assets/images/no-image.jpg' : '/uploads/' + ${item.banner}"
+													th:src="${item.banner} == null ? '/shop/assets/images/no-image.jpg' : '/shop/assets/uploads/' + ${item.banner}"
 													alt="Product image" class="product-image">
 											</a>
 

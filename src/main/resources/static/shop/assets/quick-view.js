@@ -51,7 +51,7 @@ async function viewImages(id) {
 	for (let i = 0; i < images.length; i++) {
 		let image = images[i];
 		let img = document.createElement('img');
-		img.src = '/uploads/' + images[i].name;
+		img.src = '/shop/assets/uploads/' + images[i].name;
 		img.setAttribute('width', 170);
 		img.setAttribute('data-index', i);
 		img.addEventListener('click', changeImage);
@@ -82,7 +82,7 @@ function changeImage(event) {
 // LOAD HÌNH TRANG INDEX
 function loadImage(index) {
 	let image = images[index];
-	mainView.src = '/uploads/' + image.name;
+	mainView.src = '/shop/assets/uploads/' + image.name;
 	mainView.setAttribute('data-index', index);
 	mainView.setAttribute('id', 'image-' + index);
 	mainView.style.opacity = 1;

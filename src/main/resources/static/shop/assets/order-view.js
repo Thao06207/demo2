@@ -87,7 +87,7 @@ function orderView(id) {
 					<td class="product-col">
 						<div class="product">
 							<figure class="product-media">
-								<img src="/uploads/`+ item.banner + `" alt="Product image">
+								<img src="/shop/assets/uploads/`+ item.banner + `" alt="Product image">
 							</figure>
 							<h3 class="product-title">`+ item.name + `</h3>
 						</div>

@@ -124,7 +124,7 @@ function viewImages(id) {
 				var wrapperImage = document.createElement('div');
 				wrapperImage.classList.add("col-sm-6", "col-lg-6");
 				wrapperImage.innerHTML = `<div class="card">
-												<img src="/uploads/`+ image.name + `" class="card-img-top"
+												<img src="/admin/assets/uploads/`+ image.name + `" class="card-img-top"
 											alt="...">
 											</div>`;
 				bodyViewProductImages.appendChild(wrapperImage);

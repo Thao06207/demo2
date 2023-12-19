@@ -37,7 +37,7 @@ function viewUser(id) {
 		url: baseUrl + "/users/view/" + id
 	})
 		.then(function (response) {
-			var avatar = response.data.avatar == null ? '/admin/assets/img/no-image.jpg' : '/uploads/' + response.data.avatar;
+			var avatar = response.data.avatar == null ? '/admin/assets/img/no-image.jpg' : '/admin/assets/uploads/' + response.data.avatar;
 			var wrapper = document.createElement('div');
 			wrapper.innerHTML = ``;
 			bodyViewUser.innerHTML = ``;

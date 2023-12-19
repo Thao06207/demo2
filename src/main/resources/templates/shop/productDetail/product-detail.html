@@ -47,7 +47,7 @@
 									<div class="col-md-6 offset-sm-3" th:each="item, i : ${listImage}"
 										style="position: relative; border: 2px solid black;">
 										<figure class="product-separated-item">
-											<img th:src="${item.name} == null ? '/shop/assets/images/no-image.jpg' : '/uploads/' + ${item.name}"
+											<img th:src="${item.name} == null ? '/shop/assets/images/no-image.jpg' : '/shop/assets/uploads/' + ${item.name}"
 												alt="product image">
 										</figure>
 									</div>
